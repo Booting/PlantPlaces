@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <fragment android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map"
+        tools:context="com.ariefianzy.plantplaces.Activity.MainActivity"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:id="@+id/btnMenu"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="menuButtonHandler"
+        android:background="@drawable/button"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+

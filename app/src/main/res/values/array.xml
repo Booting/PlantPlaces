@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="select">
+            <item>Take New image</item>
+            <item>View Image</item>
+            <item>Image Category</item>
+    </string-array>
+</resources>
+
